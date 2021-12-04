@@ -5,7 +5,7 @@ import guru.springframework.msscssm.domain.PaymentEvent;
 import guru.springframework.msscssm.domain.PaymentState;
 import org.springframework.statemachine.StateMachine;
 
-public interface PaymentServices {
+public interface PaymentService {
 
     Payment newPayment(Payment payment);
 
